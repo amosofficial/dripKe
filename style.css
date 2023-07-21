@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+  header {
+    background-color: #333;
+    color:black;
+    padding: 10px;
+    text-align: center;
+    background-image: url("https://cdn.londonandpartners.com/visit/london-organisations/victoria-beckham/95829-640x360-victoria_beckham_store_clothes_640.jpg");
+  }
+  
+  nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .product {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: 300px;
+  }
+  #h{
+      max-width: 100%;
+    height: 300px;   
+  }
+  
+  .product h2 {
+    margin-top: 0;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #444;
+    color:black;
+    text-align: center;
+    padding: 10px;
+    background-image: url("https://cdn.londonandpartners.com/visit/london-organisations/victoria-beckham/95829-640x360-victoria_beckham_store_clothes_640.jpg");
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  
